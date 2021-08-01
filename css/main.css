@@ -1,0 +1,15 @@
+@font-face {
+    font-family: Montserrat;
+    src: url('../montserrat/Montserrat-Black.ttf');
+    src: url('../montserrat/Montserrat-Bold.ttf');
+    src: url('../montserrat/Montserrat-Medium.ttf');
+}
+
+/* Resets */
+* {
+    font-family: Montserrat;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
