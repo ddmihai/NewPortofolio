@@ -90,17 +90,25 @@ header {
     min-height: inherit;
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .presentation-text {
     align-self: center;
     margin-top: 2rem;
     min-height: 160px;
+    text-align: center;
+
 }
 
 .presentation-hello {
     font-size: 48px;
     color: #FA8100;
+    text-align: center;
+}
+
+.presentation-intro {
+    font-size: 1.3em;
 }
 
 h1 {
@@ -144,7 +152,7 @@ h1 {
     width: 35px;
     height: 35px;
     background: #FA8100;
-    margin-top: auto;
+    margin-left: auto;
 }
 
 .header-bottom {
