@@ -11,15 +11,20 @@
     <link rel="stylesheet" href="./css/header.css">
     <!-- CSS main -->
     <link rel="stylesheet" href="./css/main.css">
+
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     <title>D. Mihai</title>
 </head>
 <body>
 
     <!-- HEADER STARTS HERE -->
     <section class="topnav">
-        <p> M. Daniel</p>
-        <img alt="Gmail icon for contact" src="https://img.icons8.com/plasticine/100/000000/gmail.png"/>
-        <img alt="Git contact link" src="https://img.icons8.com/color/48/000000/git.png"/>
+        <p class="topnavName animate__bounceInLeft"> M. Daniel</p>
+        <img class="email animate__bounceInRight" alt="Gmail icon for contact" src="https://img.icons8.com/plasticine/100/000000/gmail.png"/>
+        <img class="gitNav animate__bounceInRight" alt="Git contact link" src="https://img.icons8.com/color/48/000000/git.png"/>
     </section>
 
     <header>
@@ -56,7 +61,7 @@
                     </section>
                 </section>
               <div class="header-bottom">
-                <img class="scroll" alt="scroll icon" src="https://img.icons8.com/ios/50/000000/double-down.png"/>
+                <img class="scroll animate__bounceIn" alt="scroll icon" src="https://img.icons8.com/ios/50/000000/double-down.png"/>
               </div>
               <figure class="second-square"></figure>
             </section>
@@ -82,7 +87,7 @@
              Want to see more?
              <div class="buttons-div">
                 <button>Projects</button>   
-                <button>Github</button>
+                <button class="gitNavigation">Github</button>
              </div>   
         </div>
     </aside>
@@ -165,5 +170,6 @@
 
 
 <script src="./javascript/header.js"></script>
+<script src="./javascript/index.js"></script>
 </body>
 </html>
