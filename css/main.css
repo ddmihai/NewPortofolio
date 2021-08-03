@@ -289,11 +289,16 @@ body {
 
 .projects-buttons {
     max-width: 400px;
-    margin-top: 20px;
+    margin-top: 5px;
     height: 40px;
     font-weight: bold;
     margin-left: 10px;
     margin-right: 10px;
+}
+
+.buttons-projects {
+    display: flex;
+    flex-direction: column;
 }
 
 .projects-buttons:nth-of-type(1) {
@@ -306,7 +311,6 @@ body {
 
 .projects-buttons:nth-of-type(2) {
     max-width: 400px;
-    margin-top: 10px;
     background: transparent;
     border: 2px solid #FA8100;
     color: #FA8100;
