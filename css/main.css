@@ -54,6 +54,7 @@ body {
     min-height: 800px;
     display: flex;
     flex-wrap: wrap;
+    background: white;
 }
 
 .skills-left {
@@ -147,9 +148,9 @@ body {
     background: #424242;
 }
 
-.skills-middle > article:last-of-type {
+/* .skills-middle > article:last-of-type {
     
-}
+} */
 
 .top-title {
    border-bottom: 1px solid #FA8100;
@@ -257,7 +258,8 @@ body {
 .projects-text h4 {
     font-size: 2em;
     color: #FA8100;
-    /* margin-bottom: 4%; */
+    margin-top: 30px;
+    margin-bottom: 20px;
     text-align: center;
 }
 
