@@ -85,6 +85,10 @@ header {
     color: white;
 }
 
+.nav-links a:last-of-type:focus {
+    color: black;
+}
+
 .nav-links a:focus {
     font-size: 1.1em;
     font-weight: bolder;

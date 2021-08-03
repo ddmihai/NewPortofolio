@@ -11,12 +11,8 @@
     <link rel="stylesheet" href="./css/header.css">
     <!-- CSS main -->
     <link rel="stylesheet" href="./css/main.css">
-
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
-    <title>D. Mihai</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>Daniel Mihai</title>
 </head>
 <body>
 
@@ -35,10 +31,11 @@
                         <img class="menu" alt="hamburger menu incon" src="https://img.icons8.com/ios-filled/50/000000/menu--v3.png"/>
                     </figure>   
                         <div class="nav-links">
-                            <a href="#">Home</a>
-                            <a href="#">About me</a>
-                            <a href="#">My C.V.</a>
-                            <a href="#">Contact</a>
+                            <a href="index.html">Home</a>
+                            <a href="#skills">Skills</a>
+                            <a href="#projects">Projects</a>
+                            <a href="./CV/Daniel_Mihai_CV (3).pdf" download>Download C.V.</a>
+                            <a href="#contact">Contact</a>
                         </div>
                 </nav>
                 <!-- Bellow nav links -->
@@ -49,7 +46,7 @@
                             <span class="presentation-intro">
                                 I’m Daniel.
                                 I’m a passionate web developer
-                                based in United Kingdom which is curently looking for first commercial
+                                based in United Kingdom which is currently looking for first commercial
                                 experience.
                             </span>
                         </h1>
@@ -75,11 +72,11 @@
 </article>
 
 <!-- Current skills -->
-<section class="skills">
+<section class="skills" id="skills">
     <aside class="skills-left">
         <h3>Current technical skills</h3>
         <p>
-            Currently I improving my knowledges in 
+            Currently I improving my knowledge in 
             the following technologies, but also
             looking forward to gain new experience.
         </p>
@@ -171,14 +168,14 @@
 
 
 <!-- Projects -->
-<section class="projects">
+<section class="projects" id="projects">
     <h4 class="projects-title">Checkout my work</h4>
     <section class="projects-list">
         <aside>
             <!-- Here starts a whole proj presentation -->
             <div class="projects-text">
                 <h4>Grupomania HR</h4>
-                <p class="presentation-desc">This is a fullstack solution created for Grupomania HR. Here, the employees can create, update, read and delete multimedia posts
+                <p class="presentation-desc">This is a full-stack solution created for Grupomania HR. Here, the employees can create, update, read and delete multimedia posts
                     for the company. The web application is secured with Bcrypt, JSON web token, and have several functionalities which allows 
                     the admin and the post author to delete, update the posts.
                 </p>
@@ -201,7 +198,7 @@
             <div class="projects-text">
                 <h4>Oh-my Food</h4>
                 <p class="presentation-desc text-dark">This is a Front end static website where I present four main restaurants from France. The purpose of this project the 
-                    implementation of navigation, and product presentation. To enchance the web pages, I added animations to some elements which are triggered by 
+                    implementation of navigation, and product presentation. To enhance the web pages, I added animations to some elements which are triggered by 
                     the page reload or by hovering over the specific element.
                 </p>
                 <div class="technologies-proj">
@@ -219,7 +216,7 @@
                 <h4>Fitness Pal</h4>
                 <p class="presentation-desc">
                     Fitness Pal is created for personal use and it's purpose is to let me track my progress exercises online instead of a paper. For this project backend I used 
-                    NodeJS connected to MongoDb Atlass database. For frontend i used VueJS and SCSS.
+                    NodeJS connected to MongoDb Atlas database. For frontend i use Vue JS and SCSS.
                 </p>
                 <div class="technologies-proj">
                     <img alt="Scss icon" src="https://img.icons8.com/ios-filled/100/ffffff/sass.png"/>
@@ -241,7 +238,7 @@
             <div class="projects-text">
                 <h4>Pekokko</h4>
                 <p class="presentation-desc text-dark">
-                    Pekokko is a reviewing website for the lovers of sipcy sauces. This website have basic image implementations using multer. The website is secured with JSON web tokens
+                    Pekokko is a reviewing website for the lovers of spicy sauces. This website have basic image implementations using multer. The website is secured with JSON web tokens
                     and Bcrypt. The users are able to create some posts where they can upload images, details of the sauce, can update the sauce, and also like and dislike 
                     other users posts.  
                 </p>
@@ -264,7 +261,7 @@
                 <h4>GoMike web design</h4>
                 <p class="presentation-desc">
                    GoMike website was my first project where I learned to optimise the SEO of a web page. Mainly, the SEO stands for <em>Search Engine Optimisation</em>,
-                   and it's purpose is to allow a larger variety of users to access the website. In this poject I created a way to make this website accessible and relevant 
+                   and it's purpose is to allow a larger variety of users to access the website. In this project I created a way to make this website accessible and relevant 
                    to the Google search engine by optimising the images to an acceptable size, create a relevant description, I also took in consideration the SEO guidelines 
                    for the minimum font size, and more...
                 </p>
@@ -299,10 +296,10 @@
 
         <aside>
             <div class="projects-text">
-                <h4>Orincoco</h4>
+                <h4>Orinoco</h4>
                 <p class="presentation-desc">
-                  Orincoco is a e-commerce website which sells vintage cameras online. The website can store the chosed product in a cart separate page, and then guiding the user 
-                  to the checkout procedure. The purpose of this project was to introduce the Bootstrap components, grid, and the implementations of my first JavaScript project.
+                    Orinoco is a ecommerce website which sells vintage cameras online. The website can store the chosen product in a cart separate page, and then guiding the user 
+                    to the checkout procedure. The purpose of this project was to introduce the Bootstrap components, grid, and the implementations of my first JavaScript project.
                 </p>
                 <div class="technologies-proj">
                     <img alt="HTML5 icon" src="https://img.icons8.com/ios/100/ffffff/html.png"/>
@@ -315,6 +312,21 @@
         </aside>
     </section>
 </section>
+
+
+<!-- Footer -->
+<footer id="contact">
+    <section class="footer-overlay">
+        <h4 class="footerContact">Get in touch - </h4>
+        <div class="footer-icons">
+            <img class="footerEmail" alt="Gmail icon for contact" src="https://img.icons8.com/plasticine/100/000000/gmail.png"/>
+            <img class="footerGitNav" alt="Git contact link" src="https://img.icons8.com/color/96/000000/git.png"/>
+            <img class="footerLinkedIn" alt="LinkedIn icon" src="https://img.icons8.com/fluency/96/000000/linkedin.png"/>
+            <img class="footerCall" alt="Phone icon" src="https://img.icons8.com/doodle/96/000000/apple-phone.png"/>
+        </div>
+    </section>
+</footer>
+
 
 
 <script src="./javascript/header.js"></script>
