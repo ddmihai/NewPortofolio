@@ -32,6 +32,8 @@
     margin-right: 20px;
 }
 
+
+
 .backButton {
     height: 35px;
     width: 35px;
@@ -50,6 +52,7 @@
     min-height: 700px;
     display: flex;
     flex-wrap: wrap;
+    /* flex-direction: column; */
 }
 
 
@@ -176,15 +179,6 @@
     font-size: .8em;
 }
 
-
-
-/* Right side OF THE RESUME*/
-.timeline-right {
-    border: 2px solid blue;
-    flex: 1 1 400px;
-    overflow-y: scroll;
-}  
-
 .contact {
     margin-right: auto;
     padding: 10px;
@@ -200,12 +194,128 @@
     margin: 10px;
 }
 
-/* TIMELINE */
 
 
 
 
 
+
+
+
+
+/* Right side OF THE RESUME*/
+.timeline-right {
+    flex: 1 1 400px;
+    overflow-y: scroll;
+    max-height: 800px;
+}  
+
+/* Education */
+.title img {
+    height: 38px;
+    width: 38px;
+    margin-right: 40px;
+}
+
+.bold-title {
+    font-weight: bolder;
+    font-size: 1.1em;
+    justify-content: flex-end;
+}
+
+.timeline-main {
+    min-height: 400px;
+    position: relative;
+    margin-top: 20px;
+}
+
+.timeline-main::before {
+    position: absolute;
+    content: '';
+    left: 40px;
+    height: 100%;
+    width: 2px;
+    /* background: #757575; */
+    background: #757575;
+}
+
+.timeline-main ul {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin-top: 20px;
+}
+
+.timeline-main ul li {
+    position: relative;
+    width: 90%;
+    list-style: none;
+    margin-left: auto;
+}
+
+/* ELEMENTS LI */
+.timeline-main ul li:nth-of-type(odd) {
+    float: left;
+    text-align: right;
+    width: 22px;
+    height: 22px;
+    background: #333;
+    border-radius: 50%;
+    border: 4px solid #FA8100;
+    margin: 5px;
+    margin-left: 9px;
+    /* margin-bottom: -25px; */
+    padding: 5px;
+    clear: both;
+}
+
+.timeline-main ul li:nth-of-type(even) {
+    float: right;
+    border-left: 1px solid #757575;
+    min-height: 200px;
+    margin: 0 20px 0 60px;
+    /* max-width: fit-content; */
+    clear: both;
+}
+
+/* Editing the timeline */
+.present {
+    font-weight: bold;
+    color: white;
+}
+
+.year {
+    width: 160px;
+    background: #FA8100;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.education-name {
+    font-weight: bold;
+    font-size: 1.1em;
+    padding: 5px 20px;
+}
+
+.education-city {
+    padding-left: 30px;
+}
+
+.outcomesEdu {
+    padding: 15px;
+    display: flex;
+
+    flex-direction: column;
+    text-align: left;
+    align-items: flex-start;
+}
+
+.outcomesEdu p {
+    margin-top: 8px;
+    font-size: .9em;
+}
 
 
 
@@ -218,6 +328,24 @@
 
     .info a {
         margin-left: auto;
+    }
+
+    /* Timeline settings */
+    .timeline-main ul li:nth-of-type(odd) {
+        display: none;
+    }
+
+    .timeline-main::before {
+        left: 8px;
+    }
+
+    .timeline-main ul li:nth-of-type(odd) {
+        display: none;
+    }
+
+    .timeline-main ul li:nth-of-type(even) {
+        margin-left: 20px;
+        margin-top: 20px;
     }
     
   }
