@@ -75,7 +75,7 @@ header {
 }
 
 .nav-links a {
-    color: black;
+    color: #FA8100;
     font-weight: 600;
 }
 
@@ -128,7 +128,9 @@ header {
 }
 
 .presentation-intro {
-    font-size: 1.3em;
+    font-size: 1.2em;
+    color: white;
+    font-weight: normal;
 }
 
 h1 {
