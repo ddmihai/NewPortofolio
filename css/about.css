@@ -1,0 +1,224 @@
+@font-face {
+    font-family: Montserrat;
+    src: url('../montserrat/Montserrat-Black.ttf');
+    src: url('../montserrat/Montserrat-Bold.ttf');
+    src: url('../montserrat/Montserrat-Medium.ttf');
+}
+
+/* Resets */
+* {
+    font-family: Montserrat;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+/* ABOUT SECTION */
+.info {
+    min-height: 60px;
+    background: #757575;
+    min-height: 60px;
+    border-right: 7px solid #FA8100;
+
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1400px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px 0px 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.backButton {
+    height: 35px;
+    width: 35px;
+}
+
+.info p {
+    font-weight: bolder;
+    color: white;
+    animation: bounceInLeft;
+    animation-duration: 1.5s;
+}
+
+
+/* left sidde */
+.timeline-resume {
+    min-height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/* Left side */
+.timeline-left {
+    flex: 1 1 400px;
+}
+
+.info-box {
+    min-height: 60px;
+}
+
+.name {
+    font-size: 1.6em;
+    color: #333;
+}
+
+.title p {
+    margin-left: 20px;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 1px solid #FA8100;
+    background: whitesmoke;
+}
+
+.name span {
+    color: white;
+    font-size: 1.3em;
+    -webkit-text-stroke: 1px #FA8100;
+}
+
+.introduction {
+    max-width: 98%;
+    margin: 20px auto;
+    padding: 10px 0;
+}
+
+/* Skills */
+.skills {
+    min-height: 200px;
+    margin-top: 20px;
+}
+
+.title-skills {
+    display: flex;
+    min-height: 60px;
+    align-items: center;
+}
+
+.title-skills img {
+    margin: 10px;
+    height: 30px;
+    width: 30px;
+}
+
+.skills-shared {
+    max-width: 500px;
+    padding: 10px;
+    font-size: .8em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.skills-shared figure {
+    height: 10px;
+    flex: 1 1 400px;
+    max-width: 320px;
+    background: #757575;
+}
+
+.progress-bar > figcaption {
+    background: #FA8100;
+    height: inherit;
+}
+
+.percentage-html {
+    width: 75%;
+}
+
+.percentage-js {
+    width: 30%;
+}
+
+.percentage-nodejs {
+    width: 20%;
+}
+
+.percentage-mysql {
+    width: 30%;
+}
+
+
+/* KNOWLEDGES ARTICLE */
+.knowledges {
+    margin-top: 20px;
+}
+
+.knowledges-title {
+    background: whitesmoke;
+}
+
+
+.knowledges-div ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.knowledges-div ul li {
+    flex: 1 1 400px;
+    height: 30px;
+    padding: 10px;
+    list-style-position: inside;
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    font-size: .8em;
+}
+
+
+
+/* Right side OF THE RESUME*/
+.timeline-right {
+    border: 2px solid blue;
+    flex: 1 1 400px;
+    overflow-y: scroll;
+}  
+
+.contact {
+    margin-right: auto;
+    padding: 10px;
+}
+
+.contact-buttons {
+    width: 100%;
+}
+
+.contact-buttons img {
+    height: 35px;
+    width: 35px;
+    margin: 10px;
+}
+
+/* TIMELINE */
+
+
+
+
+
+
+
+
+
+/* MEDIAQUERRY */
+@media only screen and (max-width: 600px) {
+    .info p {
+        display: none;
+    }
+
+    .info a {
+        margin-left: auto;
+    }
+    
+  }
+
