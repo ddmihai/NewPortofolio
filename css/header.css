@@ -198,9 +198,19 @@ h1 {
         flex-direction: column;
         min-height: 400px;
         justify-content: space-evenly;
-        background: #c4c4c4c0;
+        background: #919191;
         max-width: inherit;
         display: none;
+    }
+
+    .nav-links a {
+        color: black;
+
+    }
+
+    .nav-links a:last-child {
+        color: black;
+
     }
 
     .menu {
